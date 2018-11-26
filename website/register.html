@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="register.css">
+    <script type="text/javascript" src="register.js"></script>
+
+    <title>Register</title>
+  </head>
+  <body onload="checkCookie()">
+    <nav style="background-color: #347235">
+      <a href="../myWebsite/index.html"><img src="../myWebsite/website_images/J_logo.png" id="logo" alt="logo"/></a> <a href="../myWebsite/index.html">Home</a> <a href="../myWebsite/register.html">Register</a> <a href="../myWebsite/gallery.html">Gallery</a><a href="../myWebsite/game.html">Game</a>
+    </nav>
+    <main>
+
+        <form action="submitted_page.html" method="get">
+        <fieldset>
+        <legend>Register</legend>
+        First name:<br>
+        <input type="text" name="firstname" placeholder="First Name" id="firstName" required><br>
+        Last name:<br>
+        <input type="text" name="lastname" placeholder="Last Name" id="lastName" required><br>
+        Email:<br>
+        <input type="email" name="email" placeholder="Email" required><br>
+        Date:<br>
+        <input type="date" name="date" id="date" required>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+      <footer>
+        <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+    		<a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+
+      </footer>
+    </main>
+  </body>
+
+</html>

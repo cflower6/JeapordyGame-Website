@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+}
+
+#logo{
+  height: 50px;
+  width: 50px;
+}
+
+nav{
+background-color: #2d8655;
+border-bottom: solid 1px #205E21;
+color: red;
+}
+
+nav img{
+  margin-right: 10px;
+}
+nav a{
+  color: white;
+  font-size: 25px;
+  margin-right: 20px;
+}
+a:link{
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+body{
+  background-color: #733572;
+}
+main{
+  border-top: solid 1px #5E205D;
+}
+#get_started{
+  text-align: center;
+}
+#get_started a{
+  color: white;
+}
+#happyface{
+  margin-left: 450px;
+}
+#title{
+  text-align: center;
+}
+p{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+}

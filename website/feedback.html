@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="feedback.css">
+    <script src="Cookie.js"></script>
+    <script type="text/javascript" src="feedback.js"></script>
+    <title>feedback</title>
+  </head>
+  <body>
+    <nav style="background-color: #347235">
+<a href="../myWebsite/index.html"><img src="../myWebsite/website_images/J_logo.png" id="logo" alt="logo"/></a> <a href="../myWebsite/index.html">Home</a> <a href="../myWebsite/register.html">Register</a> <a href="../myWebsite/gallery.html">Gallery</a><a href="../myWebsite/game.html">Game</a>
+</nav>
+    <main>
+      <p id="header">
+      After playing through the game I would like to hear your thoughts
+      please fill out your name, email and date and answer the questions below! Thank you I hope you learned a lot!
+      </p>
+
+        <form id="form_stuff" action="thankyou.html" method="post">
+          <fieldset>
+          Was this game helpful? <br><br>
+          <input type="radio" name="helpful" value="agree" required> Agree
+          <input type="radio" name="helpful" value="Neutral" required> Neutral
+          <input type="radio" name="helpful" value="disagree" required> Disagree <br><br>
+          Would you recommend this to a friend? <br><br>
+          <input type="radio" name="help" value="agree" required> Agree
+          <input type="radio" name="help" value="Neutral" required> Neutral
+          <input type="radio" name="help" value="disagree" required> Disagree <br> <br>
+          What was the best subject in the game? <br><br>
+          <input type="radio" name="helpful_2" value="HTML" required> html
+          <input type="radio" name="helpful_2" value="css" required> css
+          <input type="radio" name="helpful_2" value="javascript" required> javascript
+          <input type="radio" name="helpful_2" value="jQuery" required> jQuery <br><br>
+          What was the worst subject in the game? <br><br>
+          <input type="radio" name="helpful_3" value="HTML" required> html
+          <input type="radio" name="helpful_3" value="css" required> css
+          <input type="radio" name="helpful_3" value="javascript" required> javascript
+          <input type="radio" name="helpful_3" value="jQuery" required> jQuery <br><br>
+            Please enter any other feedback that's not listed
+            <br>
+            <input type="text" name="other" value="" placeholder="Enter text here"> <br><br>
+          <input type="submit" name="submit" value="submit">
+          </fieldset>
+      </form>
+
+      <footer>
+        <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+    		<a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+
+      </footer>
+    </main>
+</body>
